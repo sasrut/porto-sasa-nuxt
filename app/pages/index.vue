@@ -56,7 +56,7 @@
               a '98 liner (still gen z, right?) with a computer science degree from Multimedia Nusantara University. currently based in Tangerang. 
             </p>
             <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
-              i might not be writing the most complex backend architectures, but i am absolutely obsessed with exploring intuitive UX and bringing it to life through highly interactive web experiences.
+              With over 4 years as a Frontend Engineer, i might not be writing the most complex backend architectures, but i am absolutely obsessed with exploring intuitive UX and bringing it to life through highly interactive web experiences.
             </p>
             <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
               i build fast, responsive, and highly aesthetic web applications. when i'm not optimizing edge cases, i'm probably designing scalable UI components and sipping an iced matcha.
@@ -81,15 +81,9 @@
         
         <div class="flex-1 relative z-10 flex flex-col h-full justify-center">
           <h2 class="font-display text-3xl md:text-5xl font-bold mb-6 text-pink-900">featured work ✨</h2>
-          <p class="text-pink-900/80 text-lg md:text-xl leading-relaxed font-medium mb-10">
+          <p class="text-pink-900/80 text-lg md:text-xl leading-relaxed font-medium">
             explore the archive. highly functional web apps, modern e-commerce, and creative UI experiments packed into one curated collection.
           </p>
-          <div>
-            <NuxtLink to="/Lookbook" class="inline-flex relative z-10 bg-pink-400 hover:bg-pink-500 text-white rounded-2xl px-10 py-6 font-bold transition-all shadow-lg items-center gap-4 group-hover:scale-105">
-              <span class="text-xl">view lookbook</span>
-              <Icon name="lucide:folder-heart" class="w-6 h-6 group-hover:rotate-12 transition-transform" />
-            </NuxtLink>
-          </div>
         </div>
 
         <div class="w-full md:w-[400px] relative z-10">
@@ -101,6 +95,13 @@
             :tags="['Nuxt 3', 'Tailwind']"
             class="scale-100 md:scale-110 shadow-2xl"
           />
+        </div>
+
+        <div>
+          <NuxtLink to="/Lookbook" class="inline-flex relative z-10 bg-pink-400 hover:bg-pink-500 text-white rounded-2xl px-10 py-6 font-bold transition-all shadow-lg items-center gap-4 group-hover:scale-105">
+            <span class="text-xl">view lookbook</span>
+            <Icon name="lucide:folder-heart" class="w-6 h-6 group-hover:rotate-12 transition-transform" />
+          </NuxtLink>
         </div>
       </div>
     </section>
