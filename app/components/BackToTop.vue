@@ -4,7 +4,7 @@
       <button 
         v-show="isVisible" 
         @click="scrollToTop" 
-        class="fixed bottom-24 md:bottom-8 right-6 md:right-8 z-[100] w-12 h-12 rounded-full bg-pink-500 text-white flex items-center justify-center shadow-[0_8px_30px_rgb(236,72,153,0.4)] hover:bg-pink-400 hover:scale-110 active:scale-95 transition-all outline-none border-[3px] border-white group cursor-pointer"
+        class="fixed bottom-24 md:bottom-8 right-6 md:right-8 z-[100] w-12 h-12 rounded-full bg-primary text-white dark:text-coal flex items-center justify-center shadow-lg shadow-primary/40 hover:bg-primary-strong hover:scale-110 active:scale-95 transition-all outline-none border-[3px] border-white dark:border-white/10 group cursor-pointer"
         aria-label="Back to top"
       >
         <Icon name="lucide:arrow-up" class="w-6 h-6 group-hover:-translate-y-1 transition-transform duration-300" />

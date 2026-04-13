@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/icon'],
+  modules: ['@nuxt/icon', '@nuxtjs/color-mode'],
+  colorMode: {
+    classSuffix: '',
+    preference: 'light',
+    fallback: 'light',
+  },
   css: [
     '~/assets/css/main.css',
   ],

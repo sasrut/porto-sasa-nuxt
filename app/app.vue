@@ -21,9 +21,9 @@
     <BackToTop />
 
     <!-- Footer -->
-    <footer class="relative z-10 w-full py-10 px-6 text-center border-t border-white/30 bg-white/20 backdrop-blur-md">
+    <footer class="relative z-10 w-full py-10 px-6 text-center bg-white/10 dark:bg-coal/20 backdrop-blur-md">
       <p class="font-medium text-coal/80 mb-2">
-        crafted with <span class="text-pink-500">logics</span> and iced espresso cravings.
+        crafted with <span class="text-primary">logics</span> and iced espresso cravings.
       </p>
       <p class="text-sm text-coal/60">
         © 2026 sasa. fun yet professional.
