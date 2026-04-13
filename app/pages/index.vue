@@ -27,7 +27,7 @@
     </div>
 
     <!-- Marquee -->
-    <div class="w-[105vw] relative left-1/2 -translate-x-[40%] overflow-hidden bg-daisy py-4 mb-12 border-y-2 border-coal transform -rotate-2 flex">
+    <div class="w-[105vw] lg:w-full relative left-1/2 -translate-x-[40%] lg:-translate-x-1/2 overflow-hidden bg-daisy py-4 mb-12 border-y-2 border-coal transform -rotate-2 flex">
       <div class="flex w-max animate-marquee whitespace-nowrap">
         <div class="flex-none flex items-center pr-4">
           <span class="text-2xl md:text-3xl font-display font-bold uppercase tracking-widest inline-flex items-center gap-4">
