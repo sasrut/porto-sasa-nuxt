@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./app/components/**/*.{vue,js,ts}",
     "./app/layouts/**/*.vue",
@@ -12,12 +13,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        butter: '#FEF9E1',
-        daisy: '#FBEB9F',
-        blush: '#FFD1DC',
-        mint: '#E0F4E8',
-        lavender: '#E6E6FA',
-        coal: '#2D2A26'
+        butter: 'var(--bg-page)',
+        daisy: 'var(--color-secondary)',
+        blush: 'var(--color-primary)',
+        mint: 'var(--color-tertiary)',
+        coal: 'var(--text-main)',
+        primary: {
+          DEFAULT: 'var(--color-primary-strong)',
+          strong: 'var(--color-primary-strong)',
+          deep: 'var(--color-primary-deep)',
+        }
       },
       fontFamily: {
         sans: ['Work Sans', 'sans-serif'],

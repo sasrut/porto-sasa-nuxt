@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg-page: #FEF9E1;
+  --text-main: #2D2A26;
+  --text-muted: rgba(45, 42, 38, 0.8);
+  --color-primary: #FFD1DC;
+  /* Blush */
+  --color-primary-strong: #ec4899;
+  /* Pink-500 */
+  --color-primary-deep: #831843;
+  /* Pink-900 */
+  --color-secondary: #FBEB9F;
+  /* Daisy */
+  --color-tertiary: #E0F4E8;
+  /* Mint */
+  --card-bg: rgba(255, 255, 255, 0.4);
+  --border-primary: rgba(255, 255, 255, 0.6);
+}
+
+.dark {
+  --bg-page: #ECF7FF;
+  /* Soft Light Blue Sky */
+  --text-main: #2D2A26;
+  /* Coal (requested) */
+  --text-muted: rgba(45, 42, 38, 0.8);
+  --color-primary: #FFB38A;
+  /* Light Sunset Orange */
+  --color-primary-strong: #FF8C42;
+  /* Vibrant Sunset Orange */
+  --color-primary-deep: #D97706;
+  /* Golden Hour Deep */
+  --color-secondary: #FDE68A;
+  /* Golden Sand Yellow */
+  --color-tertiary: #BAE6FD;
+  /* Clear Water Sky */
+  --card-bg: rgba(255, 255, 255, 0.3);
+  --border-primary: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  @apply bg-[var(--bg-page)] text-[var(--text-main)] transition-colors duration-300;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
