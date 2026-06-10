@@ -144,11 +144,19 @@ export const projects = [
     url: "https://bayurjaya.co.id/"
   },
   {
+    title: 'Not So Cupid',
+    desc: 'Developed a playful with Hugface AI (desktop only), interactive dating quiz experience with drag and drop functionality and dynamic content.',
+    imageUrl: '/notsotarot.png',
+    gradient: 'from-orange-100 to-amber-100',
+    tags: ['Nuxt 3', 'Hugging Face AI', 'Tailwind', 'Vibe Code'],
+    url: "https://not-so-tarot.netlify.app/"
+  },
+  {
     title: '325 Lab Catalog',
     desc: 'Developed a minimalist, high-performance digital catalog focusing on clean product discovery.',
     imageUrl: '/325lab.png',
     gradient: 'from-orange-100 to-amber-100',
-    tags: ['Nuxt 3', 'Vue 3', 'Tailwind'],
+    tags: ['Nuxt 3', 'Vue 3', 'Tailwind', 'Vibe Code'],
     url: "https://preview325lab.netlify.app/shop"
   },
 ]

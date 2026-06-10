@@ -1,5 +1,5 @@
 <template>
-  <div class="group relative rounded-2xl bg-white/40 dark:bg-white/20 backdrop-blur-xl border-[4px] border-secondary p-2 overflow-hidden hover:-translate-y-3 transition-transform duration-500 shadow-[0_8px_30px_rgba(255,255,255,0.4)] dark:shadow-[0_8px_30px_rgba(12,74,110,0.1)] flex flex-col h-full cursor-pointer">
+  <div class="group relative rounded-2xl bg-white/40 dark:bg-white/20 backdrop-blur-xl border-[4px] border-secondary p-2 overflow-hidden hover:-translate-y-3 transition-transform duration-500 shadow-[0_8px_30px_rgba(255,255,255,0.4)] dark:shadow-[0_8px_30px_rgba(12,74,110,0.1)] flex flex-col h-full">
     <div :class="['aspect-[4/3] w-full rounded-xl mb-6 flex items-center justify-center overflow-hidden transition-all duration-700 group-hover:shadow-inner bg-gradient-to-br', gradient]">
       <img 
         :src="imageUrl" 
