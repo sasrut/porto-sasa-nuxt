@@ -18,6 +18,7 @@
     <NavBar />
 
     <NuxtPage />
+    <ImmersiveEmojiTrail />
     <BackToTop />
 
     <!-- Footer -->
