@@ -22,7 +22,7 @@
 
       <button
         type="button"
-        class="immersive-trail-toggle fixed top-5 right-5 md:top-auto md:right-auto md:bottom-8 md:left-8 z-[100] px-3.5 py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg border-2 transition-all active:scale-95 cursor-pointer"
+        class="immersive-trail-toggle fixed top-[18px] right-4 z-[100] box-border max-md:inline-flex max-md:items-center max-md:justify-center max-md:w-[4.25rem] max-md:min-h-[2.75rem] max-md:px-3 max-md:py-2.5 max-md:text-xs max-md:leading-snug max-md:rounded-2xl md:top-auto md:right-auto md:bottom-8 md:left-8 md:inline md:w-auto md:min-h-0 md:px-3.5 md:py-2 md:text-sm md:leading-normal md:rounded-full font-bold shadow-lg border-2 transition-all active:scale-95 cursor-pointer"
         :class="buttonClasses"
         :aria-pressed="isActive"
         :aria-label="isActive ? 'Stop emoji trail and restore normal pointer' : 'Try interactive emoji trail'"
@@ -386,6 +386,12 @@ body.immersive-trail-active .immersive-trail-toggle {
 <style scoped>
 .immersive-trail-layer {
   pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .immersive-trail-toggle-label {
+    text-wrap: balance;
+  }
 }
 
 .immersive-trail-layer.overflow-hidden {
