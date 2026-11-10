@@ -3,7 +3,7 @@
     <Teleport to="body">
       <button
         type="button"
-        class="fun-mode-switch animate-bounce fixed max-md:bottom-32 max-md:left-1/2 max-md:-translate-x-1/2 md:bottom-8 md:left-8 z-[100] box-border inline-flex items-center gap-2 px-3 py-2 text-xs md:text-sm leading-normal rounded-2xl md:rounded-full font-bold shadow-lg border-2 transition-all hover:scale-105 active:scale-95 cursor-pointer"
+        class="fun-mode-switch animate-bounce fixed max-md:bottom-32 max-md:left-0 max-md:right-0 max-md:mx-auto max-md:w-max md:bottom-8 md:left-8 z-[100] box-border inline-flex items-center gap-2 px-3 py-2 text-xs md:text-sm leading-normal rounded-2xl md:rounded-full font-bold shadow-lg border-2 transition-all hover:scale-105 active:scale-95 cursor-pointer"
         :class="buttonClasses"
         :aria-label="`Fun Mode: ${stateLabel}. Tap to change.`"
         @click="cycle"
