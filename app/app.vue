@@ -4,7 +4,7 @@
       <Title>sasa ✨ | creative web dev</Title>
       <Link rel="preconnect" href="https://fonts.googleapis.com" />
       <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-      <Link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
+      <Link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Work+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
     </Head>
 
     <!-- Animated Background Blobs -->
@@ -18,7 +18,9 @@
     <NavBar />
 
     <NuxtPage />
+    <FunModeSwitch />
     <ImmersiveEmojiTrail />
+    <ImmersiveFindMode />
     <BackToTop />
 
     <!-- Footer -->

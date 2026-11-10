@@ -17,7 +17,7 @@
       delivering clean code & stunning visuals. it's giving <span class="italic text-primary">creative web developer</span>.
     </p>
 
-    <div class="flex flex-col sm:flex-row gap-4 mb-20 md:mb-32">
+    <div class="flex flex-col sm:flex-row gap-4 mb-12 md:mb-18">
       <NuxtLink to="/Contact" class="px-8 py-4 bg-coal text-white dark:text-coal dark:bg-primary rounded-2xl font-bold hover:scale-105 hover:bg-neutral-800 dark:hover:bg-primary-strong transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] flex items-center justify-center gap-2">
         let's connect <Icon name="lucide:sparkles" class="w-5 h-5" />
       </NuxtLink>
@@ -32,50 +32,21 @@
         <div class="flex-none flex items-center pr-4">
           <span class="text-2xl md:text-3xl font-display font-bold uppercase tracking-widest inline-flex items-center gap-4">
             modern experiences & clean code <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
-            frontend innovator <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
-            pixel perfect <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
+            frontend web aesthetic <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
+            fun interactives <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
           </span>
         </div>
         <div class="flex-none flex items-center pr-4">
           <span class="text-2xl md:text-3xl font-display font-bold uppercase tracking-widest inline-flex items-center gap-4">
             modern experiences & clean code <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
-            frontend innovator <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
-            pixel perfect <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
+            frontend web aesthetic <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
+            fun interactives <Icon name="lucide:star" class="w-6 h-6 md:w-8 md:h-8" />
           </span>
         </div>
       </div>
     </div>
-    <!-- Sneak Peek & About Section -->
-    <section class="w-full max-w-7xl mx-auto text-left mt-16 grid grid-cols-1 md:grid-cols-2 gap-12">
-      <!-- About & Contact Teaser -->
-      <div class="md:col-span-2 bg-white/40 dark:bg-white/20 backdrop-blur-xl rounded-[2.5rem] p-8 md:p-12 shadow-[0_8px_30px_rgba(255,255,255,0.4)] dark:shadow-[0_8px_30px_rgba(12,74,110,0.1)] flex flex-col md:flex-row gap-12 items-center">
-        <div class="flex-1">
-          <h2 class="font-display text-3xl md:text-5xl font-bold mb-6 flex items-center gap-3 text-coal">the developer 👩‍💻</h2>
-          <div class="space-y-4">
-            <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
-              a '98 liner (still gen z, right?) with a computer science degree from Multimedia Nusantara University. currently based in Tangerang. 
-            </p>
-            <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
-              With over 4 years as a Frontend Engineer, i might not be writing the most complex backend architectures, but i am absolutely obsessed with exploring intuitive UX and bringing it to life through highly interactive web experiences.
-            </p>
-            <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
-              i build fast, responsive, and highly aesthetic web applications. when i'm not optimizing edge cases, i'm probably designing scalable UI components and sipping an iced matcha.
-            </p>
-          </div>
-        </div>
-        <div class="w-full md:w-auto">
-          <NuxtLink to="/Contact" class="bg-mint/80 hover:bg-mint text-teal-800 border-2 border-teal-200/50 rounded-2xl px-10 py-6 font-bold transition-all flex justify-between md:justify-center items-center gap-4 group shadow-sm hover:shadow-xl hover:-translate-y-1">
-            <span class="text-xl">get in touch!</span>
-            <Icon name="lucide:contact" class="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-          </NuxtLink>
-        </div>
-      </div>
 
-      <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium px-6">
-        did i talk too much? well here's some of my work, hope u enjoy the interactives.
-      </p>
-
-      <!-- Lookbook Teaser -->
+    <!-- Lookbook Teaser -->
       <div class="md:col-span-2 bg-white/40 dark:bg-white/20 backdrop-blur-xl rounded-[2.5rem] p-8 md:p-12 shadow-[0_8px_30px_rgba(255,183,178,0.2)] dark:shadow-[0_8px_30px_rgba(255,179,138,0.1)] flex flex-col md:flex-row gap-12 items-center overflow-hidden relative group">
         <Icon name="lucide:sparkles" class="absolute -top-10 -right-10 w-48 h-48 text-primary opacity-20 group-hover:rotate-180 transition-all duration-1000" />
         
@@ -106,6 +77,38 @@
           </NuxtLink>
         </div>
       </div>
+
+    <!-- Sneak Peek & About Section -->
+    <section class="w-full max-w-7xl mx-auto text-left mt-16 grid grid-cols-1 md:grid-cols-2 gap-12">
+      <!-- About & Contact Teaser -->
+      <div class="md:col-span-2 bg-white/40 dark:bg-white/20 backdrop-blur-xl rounded-[2.5rem] p-8 md:p-12 shadow-[0_8px_30px_rgba(255,255,255,0.4)] dark:shadow-[0_8px_30px_rgba(12,74,110,0.1)] flex flex-col md:flex-row gap-12 items-center">
+        <div class="flex-1">
+          <h2 class="font-display text-3xl md:text-5xl font-bold mb-6 flex items-center gap-3 text-coal">the developer 👩‍💻</h2>
+          <div class="space-y-4">
+            <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
+              a '98 liner (still gen z, right?) with a computer science degree from Multimedia Nusantara University. currently based in Tangerang. 
+            </p>
+            <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
+              With over 4 years as a Frontend Engineer, i might not be writing the most complex backend architectures, but i am absolutely obsessed with exploring intuitive UX and bringing it to life through highly interactive web experiences.
+            </p>
+            <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium">
+              i build fast, responsive, and highly aesthetic web applications. when i'm not optimizing edge cases, i'm probably designing scalable UI components and sipping an iced matcha.
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-auto">
+          <NuxtLink to="/Contact" class="bg-mint/80 hover:bg-mint text-teal-800 border-2 border-teal-200/50 rounded-2xl px-10 py-6 font-bold transition-all flex justify-between md:justify-center items-center gap-4 group shadow-sm hover:shadow-xl hover:-translate-y-1">
+            <span class="text-xl">get in touch!</span>
+            <Icon name="lucide:contact" class="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+          </NuxtLink>
+        </div>
+      </div>
+
+      <!-- <p class="text-coal/80 text-lg md:text-xl leading-relaxed font-medium px-6">
+        did i talk too much? well here's some of my work, hope u enjoy the interactives.
+      </p> -->
+
+      
     </section>
   </main>
 </template>
