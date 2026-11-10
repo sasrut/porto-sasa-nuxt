@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Mini Game for 17 Agustusan 2021',
     desc: 'Engineered interactive gameplay mechanics and modular UI components for a celebratory digital experience.',
-    imageUrl: '/17agustus21.png',
+    imageUrl: '/17agustus21.webp',
     gradient: 'from-blush to-primary/40',
     tags: ['Vue 2', 'SASS', 'UX Research', 'HTML'],
     url: 'https://interaktif.kompas.id/baca/yuk-meriahkan-lomba-kemerdekaan-17-agustus/'
@@ -10,7 +10,7 @@ export const projects = [
   {
     title: 'Kaleidoskop Pembaca Kompas 2021',
     desc: 'Architected data-driven interactive summaries to visualize reader engagement and annual trends.',
-    imageUrl: '/kilasbalik21.png',
+    imageUrl: '/kilasbalik21.webp',
     gradient: 'from-mint to-teal-100',
     tags: ['Vue 2', 'SASS', 'HTML'],
     url: "https://interaktif.kompas.id/baca/menyambut-tahun-baru-simak-kaleidoskop-pembaca-kompas/"
@@ -18,7 +18,7 @@ export const projects = [
   {
     title: 'Cek Biaya Transportasi Umum Jakarta',
     desc: 'Collaborated on developing interactive interface elements for a seamless, video-based simulation experience.',
-    imageUrl: '/video-interaktif.png',
+    imageUrl: '/video-interaktif.webp',
     gradient: 'from-daisy to-yellow-100',
     tags: ['HTML', 'SASS', 'Vue 2'],
     url: "https://interaktif.kompas.id/baca/cek-biaya-transportasi-umum-jakarta/"
@@ -26,7 +26,7 @@ export const projects = [
   {
     title: 'Melihat ke Mandalika, Sirkuit Balapan MotoGP',
     desc: 'Developed a performant pan-and-zoom explorer to navigate the Mandalika circuit and Lombok region.',
-    imageUrl: '/mandalika.png',
+    imageUrl: '/mandalika.webp',
     gradient: 'from-purple-200 to-indigo-100',
     tags: ['Vue 2', 'SVG', 'SASS', 'Illustrator'],
     url: "https://interaktif.kompas.id/baca/melihat-ke-mandalika-sirkuit-balapan-motogp/"
@@ -34,7 +34,7 @@ export const projects = [
   {
     title: 'Fakta Film Nasional',
     desc: 'Crafted an engaging gamified experience featuring discovery-based exploration and interactive quiz modules.',
-    imageUrl: '/hari-film.png',
+    imageUrl: '/hari-film.webp',
     gradient: 'from-primary/60 to-primary/20',
     tags: ['Pan & Zoom', 'HTML', 'SASS', 'Quiz'],
     url: "https://interaktif.kompas.id/baca/ketahui-fakta-film-nasional/"
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'Musik Jazz, Sebuah Genre dengan Ciri Khas',
     desc: 'Engineered a custom quiz interface and modular article components for an immersive exploration of jazz history.',
-    imageUrl: '/jazz2021.png',
+    imageUrl: '/jazz2021.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML', 'Form', 'Quiz'],
     url: "https://interaktif.kompas.id/baca/musik-jazz-sebuah-genre-dengan-ciri-khas/"
@@ -50,7 +50,7 @@ export const projects = [
   {
     title: 'Kumpulkan Gambar Pahlawan',
     desc: 'Developed a gamified interactive experience utilizing swiper-based card mechanics and collection tracking.',
-    imageUrl: '/kumpul-pahlawan.png',
+    imageUrl: '/kumpul-pahlawan.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML', 'Swiper JS'],
     url: "https://interaktif.kompas.id/baca/kumpulkan-gambar-pahlawan-dapatkan-promo-kemerdekaan/"
@@ -58,7 +58,7 @@ export const projects = [
   {
     title: 'Liburan Mobil Listrik Jakarta-Bali',
     desc: 'Architected a dynamic route tracker using SVG-based mapping to visualize the Jakarta-Bali journey.',
-    imageUrl: '/mobil-listrik.png',
+    imageUrl: '/mobil-listrik.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SVG', 'SASS', 'Illustrator'],
     url: "https://interaktif.kompas.id/baca/liburan-mobil-listrik-jakarta-bali/"
@@ -66,7 +66,7 @@ export const projects = [
   {
     title: 'Prediksi Jagoan Pesta Bola Qatar',
     desc: 'Built a library of reusable UI components for an interactive World Cup coverage platform.',
-    imageUrl: '/pesta-bola.png',
+    imageUrl: '/pesta-bola.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML'],
     url: "https://interaktif.kompas.id/baca/prediksi-jagoan-pesta-bola-qatar/"
@@ -74,7 +74,7 @@ export const projects = [
   {
     title: 'Permainan Populer Anak Indonesia',
     desc: 'Integrated Phaser.io with modern web technologies to reconstruct traditional games for the digital age.',
-    imageUrl: '/17agustus22.png',
+    imageUrl: '/17agustus22.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'Phaser io', 'HTML', 'SASS'],
     url: "https://interaktif.kompas.id/baca/permainan-populer-anak-indonesia/"
@@ -82,7 +82,7 @@ export const projects = [
   {
     title: 'Desa Mandiri Energi',
     desc: 'Engineered a high-resolution pan-and-zoom environment to explore sustainable energy initiatives.',
-    imageUrl: '/energi-pertamina.png',
+    imageUrl: '/energi-pertamina.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML', 'Pan & Zoom'],
     url: "https://interaktif.kompas.id/baca/desa-mandiri-energi-menggerakkan-ekonomi/"
@@ -90,7 +90,7 @@ export const projects = [
   {
     title: 'Siap Siaga Hadapi Bencana Gempa',
     desc: 'Developed an educational disaster simulation featuring complex interactive environments and state management.',
-    imageUrl: '/simulasi-gempa.png',
+    imageUrl: '/simulasi-gempa.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML', 'Pan & Zoom'],
     url: "https://interaktif.kompas.id/baca/siap-siaga-hadapi-bencana-gempa/"
@@ -98,7 +98,7 @@ export const projects = [
   {
     title: 'Keluarga Imigran Tahanan PBB',
     desc: 'Crafted a touch-optimized narrative experience using Swiper.js and custom styling for digital storytelling.',
-    imageUrl: '/imigran.png',
+    imageUrl: '/imigran.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML', 'Swiper JS'],
     url: "https://interaktif.kompas.id/baca/kisah-keluarga-imigran-tahanan-pbb/"
@@ -106,7 +106,7 @@ export const projects = [
   {
     title: 'Kecerdasan Buatan Industri Kerja dan Profesi',
     desc: 'Architected a data-rich interactive editorial piece exploring AI\'s impact on the modern workforce.',
-    imageUrl: '/data-ai.png',
+    imageUrl: '/data-ai.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML'],
     url: "https://interaktif.kompas.id/baca/kecerdasan-buatan-industri-kerja-dan-profesi/"
@@ -114,7 +114,7 @@ export const projects = [
   {
     title: 'Masakan Nusantara Kemerdekaan',
     desc: 'Developed a recipe-centric exploration experience combining custom interactivity with modular culinary content.',
-    imageUrl: '/kumpul-resep.png',
+    imageUrl: '/kumpul-resep.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML', 'Pan & Zoom'],
     url: "https://interaktif.kompas.id/baca/masakan-nusantara-kemerdekaan/"
@@ -122,7 +122,7 @@ export const projects = [
   {
     title: 'Produksi Beras Anomali Iklim Indonesia',
     desc: 'Engineered complex data visualizations and interactive charts using Highcharts to illustrate climate-impacted crop yields.',
-    imageUrl: '/data-highchart.png',
+    imageUrl: '/data-highchart.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Vue 2', 'SASS', 'HTML', 'Highcharts'],
     url: "https://interaktif.kompas.id/baca/produksi-beras-anomali-iklim-indonesia/"
@@ -130,7 +130,7 @@ export const projects = [
   {
     title: 'Redesign Kompas.id',
     desc: 'Collaborated on a full-scale platform redesign, focusing on robust component architecture and unit testing.',
-    imageUrl: '/kompasid.png',
+    imageUrl: '/kompasid.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Nuxt 3', 'Tailwind', 'JEST', 'Vitest', 'Vue 3', 'Typescript'],
     url: "https://www.kompas.id/"
@@ -138,23 +138,15 @@ export const projects = [
   {
     title: 'Landing Page Bayur Jaya',
     desc: 'Architected a high-converting, performance-focused landing page with modern aesthetic standards.',
-    imageUrl: '/bayur-jaya.png',
+    imageUrl: '/bayur-jaya.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Nuxt 3', 'Vue 3', 'Tailwind'],
     url: "https://bayurjaya.co.id/"
   },
   {
-    title: 'Not So Cupid',
-    desc: 'Developed a playful with Hugface AI (desktop only), interactive dating quiz experience with drag and drop functionality and dynamic content.',
-    imageUrl: '/notsotarot.png',
-    gradient: 'from-orange-100 to-amber-100',
-    tags: ['Nuxt 3', 'Hugging Face AI', 'Tailwind', 'Vibe Code'],
-    url: "https://not-so-tarot.netlify.app/"
-  },
-  {
     title: '325 Lab Catalog',
     desc: 'Developed a minimalist, high-performance digital catalog focusing on clean product discovery.',
-    imageUrl: '/325lab.png',
+    imageUrl: '/325lab.webp',
     gradient: 'from-orange-100 to-amber-100',
     tags: ['Nuxt 3', 'Vue 3', 'Tailwind', 'Vibe Code'],
     url: "https://preview325lab.netlify.app/shop"

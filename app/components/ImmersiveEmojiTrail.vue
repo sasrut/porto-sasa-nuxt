@@ -19,24 +19,14 @@
           </span>
         </template>
       </div>
-
-      <button
-        type="button"
-        class="immersive-trail-toggle fixed top-[18px] right-4 z-[100] box-border max-md:inline-flex max-md:items-center max-md:justify-center max-md:w-[4.25rem] max-md:min-h-[2.75rem] max-md:px-3 max-md:py-2.5 max-md:text-xs max-md:leading-snug max-md:rounded-2xl md:top-auto md:right-auto md:bottom-8 md:left-8 md:inline md:w-auto md:min-h-0 md:px-3.5 md:py-2 md:text-sm md:leading-normal md:rounded-full font-bold shadow-lg border-2 transition-all active:scale-95 cursor-pointer"
-        :class="buttonClasses"
-        :aria-pressed="isActive"
-        :aria-label="isActive ? 'Stop emoji trail and restore normal pointer' : 'Try interactive emoji trail'"
-        @click="toggle"
-      >
-        {{ isActive ? 'Amazing!' : 'Amaze Me!' }}
-      </button>
     </Teleport>
   </ClientOnly>
 </template>
 
 <script setup>
-import { ref, computed, onUnmounted, watch } from 'vue'
+import { ref, onUnmounted, watch } from 'vue'
 
+const immersiveMode = useImmersiveMode()
 const isActive = ref(false)
 const useLiteTrail = ref(false)
 const layerEl = ref(null)
@@ -66,12 +56,6 @@ let prefersReducedMotion = false
 let particleId = 0
 let rafId = 0
 let lastFrameAt = 0
-
-const buttonClasses = computed(() =>
-  isActive.value
-    ? 'immersive-trail-toggle--active text-coal border-blush/80 hover:scale-105'
-    : 'bg-white/80 dark:bg-coal/80 text-coal backdrop-blur-md border-white/60 dark:border-white/10 hover:scale-105 hover:bg-white shadow-primary/25'
-)
 
 /** Match Tailwind `md` — lite trail only on small viewports, not touch-capable desktops */
 function isMobileViewport() {
@@ -319,13 +303,13 @@ function deactivate() {
   useLiteTrail.value = false
 }
 
-function toggle() {
-  if (isActive.value) deactivate()
-  else activate()
-}
-
 watch(isActive, (active) => {
   if (!active) setBodyTrailState(false)
+})
+
+watch(immersiveMode, (mode) => {
+  if (mode === 'amaze' && !isActive.value) activate()
+  else if (mode !== 'amaze' && isActive.value) deactivate()
 })
 
 onUnmounted(() => {
@@ -340,11 +324,11 @@ body.immersive-trail-active {
 }
 
 body.immersive-trail-active a,
-body.immersive-trail-active button:not(.immersive-trail-toggle) {
+body.immersive-trail-active button:not(.fun-mode-switch) {
   cursor: none !important;
 }
 
-body.immersive-trail-active .immersive-trail-toggle {
+body.immersive-trail-active .fun-mode-switch {
   cursor: pointer !important;
 }
 
@@ -388,45 +372,7 @@ body.immersive-trail-active .immersive-trail-toggle {
   pointer-events: none;
 }
 
-@media (max-width: 767px) {
-  .immersive-trail-toggle-label {
-    text-wrap: balance;
-  }
-}
-
 .immersive-trail-layer.overflow-hidden {
   contain: strict;
-}
-
-.immersive-trail-toggle--active {
-  background: linear-gradient(
-    120deg,
-    var(--color-primary) 0%,
-    var(--color-secondary) 45%,
-    var(--bg-page) 100%
-  );
-  box-shadow:
-    0 4px 18px rgba(236, 72, 153, 0.28),
-    0 2px 8px rgba(251, 235, 159, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.65);
-  animation: immersive-trail-cute-pop 2.2s ease-in-out infinite;
-}
-
-@keyframes immersive-trail-cute-pop {
-  0%,
-  100% {
-    transform: scale(1);
-    box-shadow:
-      0 4px 18px rgba(236, 72, 153, 0.28),
-      0 2px 8px rgba(251, 235, 159, 0.55),
-      inset 0 1px 0 rgba(255, 255, 255, 0.65);
-  }
-  50% {
-    transform: scale(1.04);
-    box-shadow:
-      0 6px 22px rgba(236, 72, 153, 0.38),
-      0 4px 12px rgba(254, 249, 225, 0.7),
-      inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  }
 }
 </style>
